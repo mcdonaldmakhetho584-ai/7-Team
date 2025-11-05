@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+<head>
+    <style>
+        form {
+            text-align: center;
+            font-size: 150%;
+            padding: 20px;
+            border: 20px solid black
+            border-radius: 20px;
+            border-style: shadow;
+            background-color: transparent;
+            margin-bottom: 24px;
+            box-shadow: 0 1px 3px black
+            border-position: center;
+
+        }
+
+        body { 
+            background-image: url("trees.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        button {
+            background-color: lightseagreen;
+            color: black;
+            padding: 10px 20px;
+            border-radius: 50px;
+        }
+        input[type=submit] {
+            background-color: lightseagreen;
+            color: black;
+            padding: 10px 20px;
+            border-radius: 50px;
+        } 
+        
+    </style>
+</head>
+
+<body>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="first_name" name="fname"><br><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="last_name" name="lname"><br><br>
+        <label for="gender">Gender:</label><br>
+        <input type="text" id="gender" name="gender"><br><br>
+        <label for="DoB">Date of Birth</label><br>
+        <input type="text" id="date_of_birth" name="DoB"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br><br>
+        <input type="submit" value="Submit"><br><br><br>
+
+
+        <form action="search_results.php" method="get">
+            <label for="search_name">Search Name:</label>
+            <input type="text" id="search_name" name="search_name" placeholder="Enter name to search">
+            <button type="submit">Search</button>
+        </div>
+        </form>
+    </form>
+
+
+</body>
+</html>
